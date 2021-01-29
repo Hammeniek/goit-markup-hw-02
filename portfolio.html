@@ -14,21 +14,35 @@
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html" lang="en"> <span>Web</span>Studio </a>
+        <a class="logo" href="./index.html" lang="en">
+          <span class="logo-first-word">Web</span>Studio
+        </a>
         <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li>
+            <a class="nav-list-link active-link" href="./index.html">Студия</a>
+          </li>
+          <li>
+            <a class="nav-list-link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li><a class="nav-list-link" href="#">Контакты</a></li>
         </ul>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="contact-list-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-list-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -37,11 +51,19 @@
       <section>
         <h1>Примеры работ</h1>
         <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li>
+            <button class="sec-active-button" type="button">Все</button>
+          </li>
+          <li>
+            <button class="sec-list-button" type="button">Веб-сайты</button>
+          </li>
+          <li><button class="sec-list-button" type="button">Дизайн</button></li>
+          <li>
+            <button class="sec-list-button" type="button">Приложения</button>
+          </li>
+          <li>
+            <button class="sec-list-button" type="button">Маркетинг</button>
+          </li>
         </ul>
         <ul>
           <li>
@@ -52,8 +74,8 @@
                 width="370"
                 height="294"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="tittle-list-section">Технокряк</h2>
+              <p class="sec-list-about">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -64,8 +86,10 @@
                 width="370"
                 height="294"
               />
-              <h2>Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
+              <h2 class="tittle-list-section">
+                Постер New Orlean vs Golden Star
+              </h2>
+              <p class="sec-list-about">Дизайн</p>
             </a>
           </li>
           <li>
@@ -76,8 +100,8 @@
                 width="370"
                 height="294"
               />
-              <h2>Ресторан Seafood</h2>
-              <p>Приложение</p>
+              <h2 class="tittle-list-section">Ресторан Seafood</h2>
+              <p class="sec-list-about">Приложение</p>
             </a>
           </li>
           <li>
@@ -88,8 +112,8 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
+              <h2 class="tittle-list-section">Проект Prime</h2>
+              <p class="sec-list-about">Маркетинг</p>
             </a>
           </li>
           <li>
@@ -100,8 +124,8 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
+              <h2 class="tittle-list-section">Проект Boxes</h2>
+              <p class="sec-list-about">Приложение</p>
             </a>
           </li>
           <li>
@@ -112,8 +136,8 @@
                 width="370"
                 height="294"
               />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="tittle-list-section">Inspiration has no Borders</h2>
+              <p class="sec-list-about">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -124,8 +148,8 @@
                 width="370"
                 height="294"
               />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
+              <h2 class="tittle-list-section">Издание Limited Edition</h2>
+              <p class="sec-list-about">Дизайн</p>
             </a>
           </li>
           <li>
@@ -136,8 +160,8 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
+              <h2 class="tittle-list-section">Проект LAB</h2>
+              <p class="sec-list-about">Маркетинг</p>
             </a>
           </li>
           <li>
@@ -148,8 +172,8 @@
                 width="370"
                 height="294"
               />
-              <h2>Growing Business</h2>
-              <p>Приложение</p>
+              <h2 class="tittle-list-section">Growing Business</h2>
+              <p class="sec-list-about">Приложение</p>
             </a>
           </li>
         </ul>
